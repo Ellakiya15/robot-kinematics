@@ -6,7 +6,12 @@ import numpy as np
 from numpy import sin,cos,tan
 import math
 
-
+theta=[]
+for t in range(1,5):
+    t = float(input(f"Enter the theta {t}:"))
+    theta.append(t)
+theta = np.deg2rad(theta)
+theta = np.array(theta)
 
 #along x-axis
 dx = []
